@@ -14,7 +14,7 @@ export const expertiseAreas: ExpertiseArea[] = [
     title: "Frontend Engineering",
     description:
       "Interfaces that feel fast and considered — from design system to production build.",
-    capabilities: ["React & Next.js", "TypeScript", "Design systems", "Tailwind CSS"],
+    capabilities: ["React & Next.js", "TypeScript", "JavaScript", "Tailwind CSS"],
   },
   {
     icon: Server,
@@ -32,7 +32,7 @@ export const expertiseAreas: ExpertiseArea[] = [
     icon: Cloud,
     title: "Cloud & DevOps",
     description: "Shipping pipelines that make deploys boring, in the best way.",
-    capabilities: ["AWS", "Docker", "CI/CD", "Vercel"],
+    capabilities: ["AWS", "Docker", "CI/CD", "Vercel", "Netlify"],
   },
   {
     icon: Cpu,

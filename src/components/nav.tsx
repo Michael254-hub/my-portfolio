@@ -26,7 +26,7 @@ export function Nav() {
             onClick={() => scrollTo("home")}
             className="font-display text-lg font-semibold tracking-tight text-fg"
           >
-            Michael Simiyu
+            Michael W. Simiyu
           </button>
 
           <nav className="hidden items-center gap-1 md:flex">
