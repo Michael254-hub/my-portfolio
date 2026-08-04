@@ -2,51 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08080a" />
+
+    <title>Michael Simiyu — Software &amp; AI Engineer</title>
     <meta
       name="description"
-      content="Michael Simiyu - Fullstack Web Developer & UI/UX Enthusiast. Crafting exceptional digital experiences with modern technologies."
-    />
-    <meta
-      name="keywords"
-      content="web developer, fullstack developer, react, node.js, javascript, portfolio, UI/UX"
+      content="Michael Simiyu is a software and AI engineer building intelligent, production-grade web applications — from cloud backends to applied machine learning."
     />
     <meta name="author" content="Michael Simiyu" />
+    <link rel="canonical" href="https://michaelsimiyu.dev/" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://michaelsimiyu.portfolio.com/" />
-    <meta
-      property="og:title"
-      content="Michael Simiyu - Fullstack Web Developer"
-    />
+    <meta property="og:url" content="https://michaelsimiyu.dev/" />
+    <meta property="og:title" content="Michael Simiyu — Software & AI Engineer" />
     <meta
       property="og:description"
-      content="Crafting exceptional digital experiences with modern technologies. Passionate about creating scalable, performant, and user-friendly applications."
+      content="Software and AI engineer building intelligent, production-grade web applications — from cloud backends to applied machine learning."
     />
     <meta property="og:image" content="/og-image.jpg" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://michaelsimiyu.dev/" />
+    <meta name="twitter:title" content="Michael Simiyu — Software & AI Engineer" />
     <meta
-      property="twitter:url"
-      content="https://michaelsimiyu.portfolio.com/"
+      name="twitter:description"
+      content="Software and AI engineer building intelligent, production-grade web applications — from cloud backends to applied machine learning."
     />
-    <meta
-      property="twitter:title"
-      content="Michael Simiyu - Fullstack Web Developer"
-    />
-    <meta
-      property="twitter:description"
-      content="Crafting exceptional digital experiences with modern technologies. Passionate about creating scalable, performant, and user-friendly applications."
-    />
-    <meta property="twitter:image" content="/og-image.jpg" />
+    <meta name="twitter:image" content="/og-image.jpg" />
 
-    <title>Michael Simiyu - Fullstack Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("theme") === "light") {
+            document.documentElement.setAttribute("data-theme", "light");
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
